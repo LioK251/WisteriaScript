@@ -1,7 +1,5 @@
 local library = {}
 
-library:CreateWindow("Ok")
-
 function library:CreateWindow(name)
     local Design = Instance.new("ScreenGui")
     local TopMain = Instance.new("ImageLabel")
@@ -72,5 +70,3 @@ function library:CreateWindow(name)
     end
     return EpicLibrary
 end
-
-return library
