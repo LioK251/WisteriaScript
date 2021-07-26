@@ -59,6 +59,7 @@ function library:CreateWindow(name)
     Container.ScaleType = Enum.ScaleType.Slice
     Container.SliceCenter = Rect.new(100, 100, 100, 100)
     Container.SliceScale = 0.050
+    Container.ClipDescendats = true
 
     ToggleVisible.Name = "ToggleVisible"
     ToggleVisible.Parent = game.ReplicatedStorage
