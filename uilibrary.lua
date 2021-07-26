@@ -72,3 +72,5 @@ function library:CreateWindow(name)
     end
     return EpicLibrary
 end
+
+return library
